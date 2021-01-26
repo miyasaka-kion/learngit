@@ -1,3 +1,3 @@
-Git is a version control system yeswe
+Git it is a version control system yeswe
 Git is a free software
-WPWPWP
+A dog is running
