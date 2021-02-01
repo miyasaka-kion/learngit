@@ -2,4 +2,6 @@ Nothing Here.
 
 now I am working on branch 'dev' 
 
-working again, Now I have to fix a bug on master !
+I am going to other branch now
+
+Bug is fixed, now back to dev
