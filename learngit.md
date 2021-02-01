@@ -32,3 +32,6 @@ basic command:
 
 `git push origin master`
 
+从远程的库克隆：
+
+`git clone <...>`
