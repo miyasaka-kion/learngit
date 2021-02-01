@@ -1,5 +1,6 @@
 This is a git learning stuff
 
-Creating a branch is simple
+reating a branch is simple
 
-add —no-ff to learngit.md
+dd —no-ff to learngit.md
+
