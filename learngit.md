@@ -62,3 +62,7 @@ basic command:
 
 `git branch -d <name>`
 
+合并（禁用`Fast forward`）到当前分支：
+
+`git merge --no-ff -m "<message>" <branch_name>`
+
