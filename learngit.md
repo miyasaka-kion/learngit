@@ -1,4 +1,4 @@
-Git Note
+ Git Note
 
 basic command:
 
@@ -35,3 +35,30 @@ basic command:
 从远程的库克隆：
 
 `git clone <...>`
+
+
+
+查看分支：
+
+`git branch`
+
+创建分支：
+
+`git branch <name>`
+
+切换分支：
+
+`git switch <name>`
+
+创建+切换分支：
+
+`git switch -c <name>`
+
+合并某个分支到当前的分支：
+
+`git merge <name>`
+
+删除分支：
+
+`git branch -d <name>`
+
