@@ -36,8 +36,6 @@ basic command:
 
 `git clone <...>`
 
-
-
 查看分支：
 
 `git branch`

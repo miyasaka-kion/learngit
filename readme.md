@@ -1,7 +1,7 @@
 This is a git learning stuff
 
-<<<<<<< Updated upstream
 add —no-ff to learngit.md
-=======
-add —no-ff to learngit.md
->>>>>>> Stashed changes
+
+creating a branch is simple
+
+dd —no-ff to learngit
