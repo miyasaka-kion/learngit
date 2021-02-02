@@ -1,4 +1,4 @@
- Git Note
+Git Note
 
 basic command:
 
@@ -83,4 +83,12 @@ basic command:
 已经在其他分支上修复的bug，合并到另一个分支：
 
 `git cherry-pick <commit>`
+
+丢弃一个没有合并的分支：
+
+`git branch -D <name>`
+
+
+
+
 
