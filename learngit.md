@@ -64,3 +64,23 @@ basic command:
 
 `git merge --no-ff -m "<message>" <branch_name>`
 
+处理未完成的工作现场：
+
+`git stash`
+
+恢复工作现场：
+
+`git stash apply`
+
+删除`stash`：
+
+`git stash drop`
+
+恢复并删除：
+
+`git stash pop`
+
+已经在其他分支上修复的bug，合并到另一个分支：
+
+`git cherry-pick <commit>`
+
