@@ -1,4 +1,4 @@
-Git Note
+# Git Note
 
 basic command:
 
@@ -88,6 +88,36 @@ basic command:
 
 `git branch -D <name>`
 
+
+
+
+#### 多人协作
+
+查看远程库信息：
+
+`git remote -v`
+
+在本地创建远程分支对应的分支：
+
+`git checkout -b <branch_name> origin/<branch_name>`
+
+尝试从本地推送分支：
+
+`git push origin <branch_name>`
+
+推送失败，说明远程分支版本新，先拉取：
+
+`git pull`
+
+解决冲突并且在本地提交；
+
+冲突解决了，推送：
+
+`git push origin <branch_name>`
+
+如果`git pull`提示`no tracking information`，则需要创建本地分支很远程分支的链接关系：
+
+`git branch--set-upstream-to <branch_name> origin/<branch_name>`  
 
 
 
