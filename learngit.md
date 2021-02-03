@@ -1,6 +1,6 @@
 # Git Note
 
-basic command:
+#### basic command:
 
 `git add file`
 
@@ -35,6 +35,10 @@ basic command:
 从远程的库克隆：
 
 `git clone <...>`
+
+
+
+#### 分支
 
 查看分支：
 
@@ -121,4 +125,33 @@ basic command:
 
 
 
+#### 标签
+
+新建一个标签（默认为`HEAD`）：
+
+`git tag <tagname>`
+
+制定标签信息：
+
+`git tag -a <tagname> -m "<message>"`
+
+查看标签：
+
+`git tag`
+
+推送一个本地标签：
+
+`git push origin <tagname>`
+
+推送全部未推送的本地标签：
+
+`git push origin --tags`
+
+删除一个本地标签：
+
+`git tag -d <tagname>`
+
+删除一个远程标签：
+
+`git push origin :ref/tags/<tagname>`
 
