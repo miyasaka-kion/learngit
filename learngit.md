@@ -155,3 +155,23 @@
 
 `git push origin :ref/tags/<tagname>`
 
+#### 忽略特殊文件
+
+写在`.gitignore` 中；
+
+强行`add`会被`ignore`的文件：
+
+`git add -f <file_name>`
+
+排除所有`.`开头的文件但不排除`.gitignore`
+
+```shell
+# ignore all file begin with '.'
+.*
+# ignore all .class file
+.class
+# DO NOT ignore .gitignore and App.class
+!.gitignore
+!App.class
+```
+
